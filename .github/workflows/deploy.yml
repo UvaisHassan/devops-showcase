@@ -38,5 +38,6 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
+            export: KUBECONFIG=/home/ubuntu/.kube/config
             kubectl rollout restart deployment/devops-showcase
             kubectl rollout status deployment/devops-showcase --timeout=120s
