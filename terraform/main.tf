@@ -109,7 +109,8 @@ resource "aws_instance" "app_server" {
 }
 
 resource "aws_ecr_repository" "app" {
-  name = "devops-showcase"
+  name         = "devops-showcase"
+  force_delete = true
 }
 
 output "server_public_ip" {
