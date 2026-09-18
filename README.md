@@ -6,7 +6,7 @@ The app itself is intentionally simple. The main purpose of this project is to d
 
 ## Architecture
 
-<!-- Architecture diagram will be added here. -->
+![Architecture Diagram](devops-showcase-architecture.drawio.png)
 
 ## Tech Stack
 
